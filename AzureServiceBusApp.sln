@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureServiceBus.Producer", "AzureServiceBus.Producer\AzureServiceBus.Producer.csproj", "{5D154740-95A2-4715-9202-A6F7982D34D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Çözüm Öğeleri", "Çözüm Öğeleri", "{F8BB319C-23D6-48C6-8F76-0FC83A26A1A9}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusApp.Common", "ServiceBusApp.Common\ServiceBusApp.Common.csproj", "{BDCEBE85-A10F-49C1-B4F3-093992AA289A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D154740-95A2-4715-9202-A6F7982D34D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D154740-95A2-4715-9202-A6F7982D34D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D154740-95A2-4715-9202-A6F7982D34D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D154740-95A2-4715-9202-A6F7982D34D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDCEBE85-A10F-49C1-B4F3-093992AA289A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDCEBE85-A10F-49C1-B4F3-093992AA289A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDCEBE85-A10F-49C1-B4F3-093992AA289A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDCEBE85-A10F-49C1-B4F3-093992AA289A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {365E2B31-3A39-4BE8-AB84-AF1C9129DF78}
+	EndGlobalSection
+EndGlobal
